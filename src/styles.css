@@ -116,3 +116,56 @@ img {
   height: auto;
   border: 1px solid #ccc;
 }
+
+/* Media Query for screens with a maximum width of 740px */
+@media only screen and (max-width: 740px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .header {
+    font-size: 1.5em;
+    width: auto;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .file-input-container,
+  .message-input-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .file-input-container input,
+  .message-input-container input {
+    width: 100%;
+  }
+
+  .encode-decode-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .encode-decode-container > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .result-container {
+    width: 100%;
+  }
+
+  canvas {
+    max-width: 100%;
+    height: auto;
+  }
+}

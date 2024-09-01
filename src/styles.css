@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
 }
 header {
-  background-color: #384D48;
+  background-color: #565254;
   font-family: Cascadia Code;
   font-size: 26px;
   color: #C19AB7;
@@ -32,7 +32,8 @@ h2 {
   color: #333;
 }
 .text{
-  margin-top: 150px;
+  margin-top: 180px;
+  margin-bottom: 36px;
 }
 
 p {
@@ -48,6 +49,7 @@ p {
 
 .decode-container{
   margin-top: 180px;
+  margin-bottom: 81px;
 }
 
 nav ul {
@@ -163,23 +165,40 @@ button:hover {
 img {
   margin-top: 20px;
   max-width: 100%;
+  max-height: 360px;
   height: auto;
-  border: 1px solid #ccc;
+  border: 5px solid #ccc;
+}
+.encode-img{
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+}
+.encode-img:hover{
+  text-decoration: underline;
 }
 .result-container {
   margin-top: 20px;
   text-align: center;
 }
+h3{
+  position: absolute;
+  top: -15px;
+  margin-left: 50px;
+  font-family: Rakkas;
+  font-size: 26px;
+  font-weight: 400;
+}
 .steganography-images-container {
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  bottom: -65px;
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #D8D4F2;
   border-top: 2px solid #ccc;
   margin-top: 40px;
   height: 20%;
@@ -188,7 +207,8 @@ img {
 .steganography-image {
   width: 150px;
   height: auto;
-  margin: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -224,6 +244,13 @@ img {
   }
   .decode-container{
     margin-top: 20px;
+  }
+  h3{
+    margin-left: 0px;
+    text-align: center;
+    position: relative;
+    margin-bottom: -45px;
+    font-size: 22px;
   }
   .container,
   .header,

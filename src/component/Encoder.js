@@ -54,7 +54,7 @@ function Encode() {
         <div>
           <h3>Encoded Image:</h3>
           <img src={encodedImage} alt="Encoded" />
-          <a href={encodedImage} download="encoded-image.png">
+          <a href={encodedImage} download="encoded-image.png" className='encode-img'>
             Download Encoded Image
           </a>
         </div>

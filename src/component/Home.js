@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div>
+    <div className="text">
       <h2>Welcome to Your Steganography Website</h2>
       <p>Choose the option you want to perform:</p>
       <nav>
         <ul>
-          <li><Link to="/encode">Encode</Link></li>
-          <li><Link to="/decode">Decode</Link></li>
+          <li><Link to="/encode" className='p2'>Encode</Link></li>
+          <li><Link to="/decode" className='p2'>Decode</Link></li>
         </ul>
       </nav>
     </div>

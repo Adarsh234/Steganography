@@ -49,7 +49,7 @@ function Encode() {
           />
         </div>
       </div>
-      <button onClick={handleEncode}>Encode</button>
+      <button className='btn' onClick={handleEncode}>Encode</button>
       {encodedImage && (
         <div>
           <h3>Encoded Image:</h3>

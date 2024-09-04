@@ -29,7 +29,7 @@ function Decode() {
     <div className="decode-container">
       <h2>Decode Message from Image</h2>
       <input type="file" accept="image/*" onChange={handleImageChange} />
-      <button onClick={handleDecode}>Decode</button>
+      <button  className='btn' onClick={handleDecode}>Decode</button>
       {decodedMessage && (
         <div>
           <h3>Decoded Message:</h3>

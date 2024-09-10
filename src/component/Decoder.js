@@ -32,7 +32,7 @@ function Decode() {
       <button  className='btn' onClick={handleDecode}>Decode</button>
       {decodedMessage && (
         <div>
-          <h3>Decoded Message:</h3>
+          <h3 className='h3'>Decoded Message:</h3>
           <p>{decodedMessage}</p>
         </div>
       )}

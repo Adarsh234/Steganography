@@ -52,7 +52,7 @@ function Encode() {
       <button className='btn' onClick={handleEncode}>Encode</button>
       {encodedImage && (
         <div>
-          <h3>Encoded Image:</h3>
+          <h3 className='h3'>Encoded Image:</h3>
           <img src={encodedImage} alt="Encoded" />
           <a href={encodedImage} download="encoded-image.png" className='encode-img'>
             Download Encoded Image
